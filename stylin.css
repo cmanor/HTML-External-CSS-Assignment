@@ -1,4 +1,5 @@
-nav {
+nav 
+{
     background-color: black;
     color: white;
     display: flex;
@@ -6,15 +7,17 @@ nav {
     flex-direction: row;
     align-items: stretch;
 }
-body {
+body 
+{
     font-family: serif;
 }
-li {
+li 
+    {
     list-style: none;
     display: flex;
     margin: 15px;
-
-}
+    float:left
+    }
 .cfh {
         background-color: purple;
         align-self: center;
